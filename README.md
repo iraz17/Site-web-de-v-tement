@@ -4,6 +4,7 @@
 
 Développer la partie front-end d’une application web ou web mobile
 intégrant les recommandations de sécurité :
+
    Maquetter une application.
    Réaliser une interface utilisateur web statique et adaptable.
    Développer une interface utilisateur dynamique.
