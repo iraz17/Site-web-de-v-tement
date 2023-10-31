@@ -1,0 +1,200 @@
+/**************************************************** GENERAL ************************************************/
+* {
+    margin: 0;
+}
+
+:root {
+    --main-white:white;
+    --main-yellow: #E7BA28;
+    --main-black: #000000;
+    --main-grey: grey;
+    --main-red:#ff0000;
+    --main-green:#669933;
+    --global-content-width: 1170px;
+    
+  }
+
+body {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--main-grey);
+}
+
+
+.conteneur {
+    margin: 0 auto;
+    max-width: var(--global-content-width);
+}
+
+/**************************************************** TOP ************************************************/
+header {
+    padding: 5px;
+    text-align: center;
+}
+
+header span {
+    color: var(--main-white);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 5%;
+}
+
+header nav {
+    display: inline;
+}
+
+header a {
+    color: var(--main-white);
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+header nav a:hover {
+    background: var(--main-yellow);
+}
+
+/**************************************************** MIDDLE ************************************************/
+section {
+    padding: 30px;
+    min-height: 900px;
+    margin:50px 0;
+}
+
+h4 a{
+    color: var(--main-black);
+}
+/**************************************************** BOTTOM ************************************************/
+footer {
+    background: var(--main-black);
+    color: var(--main-white);
+    padding: 30px 0;
+}
+
+footer a {
+    color: var(--main-white);
+}
+footer a:hover{
+    color: var(--main-black);
+}
+/**************************************************** GENERAL ************************************************/
+.erreur {
+    background: var(--main-red);
+    padding: 5px;
+    margin: 5px;
+}
+
+.validation {
+    background: var(--main-green);
+    padding: 5px;
+    margin: 5px;
+}
+
+.info{
+    
+    width: 30%;
+}
+
+.spacer-bt{
+    margin-bottom: 50px;
+}
+
+.spacer-tp{
+    margin-top: 50px;
+}
+.cadre h2 {
+    background: var(--main-grey);
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.cadre p {
+    padding: 10px;
+}
+
+.centre {
+    text-align: center;
+}
+/****************************************************INDEX*************************************************/
+
+
+/**************************************************** SHOP ************************************************/
+.container{
+}
+
+.boutique-gauche {
+    float: left;
+    width: 30%;
+    background: var(--main-white);
+    min-height: 150px;
+    margin-right: 10%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.boutique-gauche ul {
+    list-style: none;
+    padding: 0;
+}
+
+.boutique-gauche ul li a {
+    display: block;
+    padding: 10px;
+}
+
+.boutique-gauche ul li a:hover {
+    background: var(--main-yellow);
+    color: var(--main-white);
+}
+
+.boutique-droite {
+    float: left;
+    width: 60%;
+}
+
+.boutique-produit {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid var(--main-yellow);
+}
+
+.boutique-produit:hover {
+    background: var(--main-yellow);
+}
+
+/**************************************************** MISCELLANEOUS ************************************************/
+table {
+    border-collapse: collapse;
+    
+}
+
+table tr td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 5px;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
