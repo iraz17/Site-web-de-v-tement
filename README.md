@@ -27,3 +27,6 @@ intégrant les recommandations de sécurité :
    Élaborer et mettre en œuvre des composants dans une
   application de gestion de contenu ou e-commerce.
 
+  la maquette pour le site: 
+  https://www.figma.com/file/v7M1YjcoW6EMOyDFydlFjO/Untitled?type=design&node-id=0%3A1&mode=design&t=Qem62BVhnxEWsAcS-1
+
